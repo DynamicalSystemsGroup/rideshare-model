@@ -1,0 +1,1 @@
+This wiring will be based on a control action which when the time comes triggers anything that needs to occur after a ride is complete.

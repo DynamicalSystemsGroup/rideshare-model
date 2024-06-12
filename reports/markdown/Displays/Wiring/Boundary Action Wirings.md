@@ -44,26 +44,6 @@ end
 graph TB
 
 subgraph SVS["State Variables"]
-EE0[("Dummy")]
-EES0(["Variable A"])
-EES0 --- EE0
-end
-
-subgraph X4["Dummy Control Wiring"]
-direction TB
-X1["Dummy Control Action"]
-X2["Dummy Policy"]
-X3["Dummy Mechanism"]
-X3 --> EES0
-X1--"Dummy Space 1"--->X2
-X2-."Dummy Space 2"..->X3
-end
-```
-
-```mermaid
-graph TB
-
-subgraph SVS["State Variables"]
 end
 
 subgraph X3["Request Ride Wiring"]
@@ -76,21 +56,19 @@ end
 
 ## Description
 
-The wirings which are not components of other wirings.
+The wirings related to only boundary type actions.
 ## Wirings
 1. [[Dummy Boundary Wiring]]
 2. [[Dummy Boundary Wiring 2]]
-3. [[Dummy Control Wiring]]
-4. [[Request Ride Wiring]]
+3. [[Request Ride Wiring]]
 
 ## Unique Components Used
 1. [[Dummy Boundary Action]]
 2. [[Dummy Boundary Action 2]]
-3. [[Dummy Control Action]]
-4. [[Dummy Mechanism]]
-5. [[Dummy Policy]]
-6. [[Request Ride Boundary Action]]
-7. [[Ride Pricing Policy]]
+3. [[Dummy Mechanism]]
+4. [[Dummy Policy]]
+5. [[Request Ride Boundary Action]]
+6. [[Ride Pricing Policy]]
 
 ## Unique Parameters Used
 1. [[dummy_parameter]]
