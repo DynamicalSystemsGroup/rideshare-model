@@ -6,7 +6,7 @@ rider_wirings.append(
         "components": [
             "Request Ride Boundary Action",
             "Ride Pricing Policy",
-            # "Ride Confirmation Policy",
+            "Ride Confirmation Policy",
             # "Request Ride Mechanisms Wiring",
         ],
         "description": "The action of a rider requesting a ride.",

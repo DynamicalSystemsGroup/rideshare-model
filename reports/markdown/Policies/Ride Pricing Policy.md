@@ -6,6 +6,7 @@ The policy which determines the price of a ride
 ## Domain Spaces
 1. [[Request Ride Space]]
 ## Followed By
+1. [[Ride Confirmation Policy]]
 ## Codomain Spaces
 1. [[Request Ride Response Space]]
 ## Constraints

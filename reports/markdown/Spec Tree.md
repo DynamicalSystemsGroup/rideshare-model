@@ -61,5 +61,6 @@ cssclasses:
 ├──**Policies**
 │   ├──[[Dummy Policy]]
 │   ├──[[Ride Pricing Policy]]
+│   ├──[[Ride Confirmation Policy]]
 ├──**Mechanisms**
 │   ├──[[Dummy Mechanism]]

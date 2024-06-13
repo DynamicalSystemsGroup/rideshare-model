@@ -46,11 +46,13 @@ graph TB
 subgraph SVS["State Variables"]
 end
 
-subgraph X3["Request Ride Wiring"]
+subgraph X4["Request Ride Wiring"]
 direction TB
 X1["Request Ride Boundary Action"]
 X2["Ride Pricing Policy"]
+X3["Ride Confirmation Policy"]
 X1--"Request Ride Space"--->X2
+X2--"Request Ride Response Space"--->X3
 end
 ```
 
@@ -68,7 +70,8 @@ The wirings related to only boundary type actions.
 3. [[Dummy Mechanism]]
 4. [[Dummy Policy]]
 5. [[Request Ride Boundary Action]]
-6. [[Ride Pricing Policy]]
+6. [[Ride Confirmation Policy]]
+7. [[Ride Pricing Policy]]
 
 ## Unique Parameters Used
 1. [[dummy_parameter]]
