@@ -18,7 +18,12 @@ The [[Request Ride Response Space]] passed in the domain will either come out as
     "domain": [
         "Request Ride Response Space",
     ],
-    "codomain": ["Request Ride Response Space", "Event Space"],
+    "codomain": [
+        "Request Ride Response Space",
+        "Event Space",
+        "Driver State Space",
+        "Rider State Space",
+    ],
     "parameters_used": [],
     "metrics_used": [],
 }

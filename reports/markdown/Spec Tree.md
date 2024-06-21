@@ -51,6 +51,8 @@ cssclasses:
 │   ├──[[Request Ride Space]]
 │   ├──[[Request Ride Response Space]]
 │   ├──[[Event Space]]
+│   ├──[[Rider State Space]]
+│   ├──[[Driver State Space]]
 ├──**Parameters**
 │   ├──Dummy Parameter Set
 │   │   ├──[[dummy_parameter]]
@@ -69,3 +71,5 @@ cssclasses:
 │   ├──[[Dummy Mechanism]]
 │   ├──[[Add Event Mechanism]]
 │   ├──[[Log Ride Request Mechanism]]
+│   ├──[[Update Driver State Mechanism]]
+│   ├──[[Update Rider State Mechanism]]

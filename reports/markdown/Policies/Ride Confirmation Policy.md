@@ -13,9 +13,13 @@ The [[Request Ride Response Space]] passed in the domain will either come out as
 ## Followed By
 1. [[Log Ride Request Mechanism]]
 2. [[Add Event Mechanism]]
+3. [[Update Driver State Mechanism]]
+4. [[Update Rider State Mechanism]]
 ## Codomain Spaces
 1. [[Request Ride Response Space]]
 2. [[Event Space]]
+3. [[Driver State Space]]
+4. [[Rider State Space]]
 ## Constraints
 ## Parameters Used
 ## Metrics Used
