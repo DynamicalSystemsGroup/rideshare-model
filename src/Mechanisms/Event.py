@@ -10,4 +10,15 @@ add_event_mechanism = {
     "updates": [("Global", "Event Queue", False)],
 }
 
-event_mechanisms = [add_event_mechanism]
+log_ride_request_mechanism = {
+    "name": "Log Ride Request Mechanism",
+    "description": "Mechanism which logs rides requested",
+    "constraints": [],
+    "logic": "Append to the ride request log",
+    "domain": ["Request Ride Response Space"],
+    "parameters_used": [],
+    "updates": [("Global", "Ride Request Log", False)],
+}
+
+
+event_mechanisms = [add_event_mechanism, log_ride_request_mechanism]

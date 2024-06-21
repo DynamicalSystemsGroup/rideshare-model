@@ -11,8 +11,11 @@ The [[Request Ride Response Space]] passed in the domain will either come out as
 ## Domain Spaces
 1. [[Request Ride Response Space]]
 ## Followed By
+1. [[Log Ride Request Mechanism]]
+2. [[Add Event Mechanism]]
 ## Codomain Spaces
 1. [[Request Ride Response Space]]
+2. [[Event Space]]
 ## Constraints
 ## Parameters Used
 ## Metrics Used
@@ -21,5 +24,5 @@ The [[Request Ride Response Space]] passed in the domain will either come out as
 #### Description
 Confirms or rejects the ride as long as all the conditions are met.
 #### Logic
-
+Pass on the space as long as domain[0]["quoted_price"] <= domain[0]["maximum_price"] and domain[0]["quoted_pickup_time"] <= domain[0]["maximum_wait_time"]
 

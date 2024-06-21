@@ -17,6 +17,7 @@ cssclasses:
 │   │   ├──[[Global State-Riders\|Riders]]
 │   │   ├──[[Global State-Drivers\|Drivers]]
 │   │   ├──[[Global State-Event Queue\|Event Queue]]
+│   │   ├──[[Global State-Ride Request Log\|Ride Request Log]]
 │   ├──[[Rider State]]
 │   │   ├──[[Rider State-User ID\|User ID]]
 │   │   ├──[[Rider State-State\|State]]
@@ -41,6 +42,7 @@ cssclasses:
 │   ├──[[Time Type]]
 │   ├──[[Driver ID Type]]
 │   ├──[[Driver State Type]]
+│   ├──[[Ride Request Log Type]]
 ├──**Spaces**
 │   ├──[[Terminating Space]]
 │   ├──[[Empty Space]]
@@ -48,6 +50,7 @@ cssclasses:
 │   ├──[[Dummy Space 2]]
 │   ├──[[Request Ride Space]]
 │   ├──[[Request Ride Response Space]]
+│   ├──[[Event Space]]
 ├──**Parameters**
 │   ├──Dummy Parameter Set
 │   │   ├──[[dummy_parameter]]
@@ -64,3 +67,5 @@ cssclasses:
 │   ├──[[Ride Confirmation Policy]]
 ├──**Mechanisms**
 │   ├──[[Dummy Mechanism]]
+│   ├──[[Add Event Mechanism]]
+│   ├──[[Log Ride Request Mechanism]]
