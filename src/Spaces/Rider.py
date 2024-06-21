@@ -29,5 +29,20 @@ request_ride_response_space = {
     },
 }
 
+event_space = {
+    "name": "Event Space",
+    "schema": {"event": "Event Type", "time_added": "Time Type"},
+}
 
-rider_spaces = [request_ride_space, request_ride_response_space]
+rider_state_space = {
+    "name": "Rider State Space",
+    "schema": {"rider": "User ID Type", "state": "Rider State Type"},
+}
+
+
+rider_spaces = [
+    request_ride_space,
+    request_ride_response_space,
+    event_space,
+    rider_state_space,
+]

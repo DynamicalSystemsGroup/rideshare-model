@@ -6,11 +6,26 @@ rider_wirings.append(
         "components": [
             "Request Ride Boundary Action",
             "Ride Pricing Policy",
-            # "Ride Confirmation Policy",
-            # "Request Ride Mechanisms Wiring",
+            "Ride Confirmation Policy",
+            "Request Ride Mechanisms Wiring",
         ],
         "description": "The action of a rider requesting a ride.",
         "constraints": [],
         "type": "Stack",
+    }
+)
+
+rider_wirings.append(
+    {
+        "name": "Request Ride Mechanisms Wiring",
+        "components": [
+            "Log Ride Request Mechanism",
+            "Add Event Mechanism",
+            "Update Driver State Mechanism",
+            "Update Rider State Mechanism",
+        ],
+        "description": "Mechanism for ride requests",
+        "constraints": [],
+        "type": "Parallel",
     }
 )

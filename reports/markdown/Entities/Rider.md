@@ -13,4 +13,6 @@
 ## Boundary Actions
 ### [[Request Ride Boundary Action]]
 ## Mechanisms Impacting the Entity
+### [[Update Rider State Mechanism]]
 ## Actions Impacting the Entity
+### [[Request Ride Boundary Action]]

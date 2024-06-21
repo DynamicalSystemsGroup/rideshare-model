@@ -12,4 +12,6 @@
 
 ## Boundary Actions
 ## Mechanisms Impacting the Entity
+### [[Update Driver State Mechanism]]
 ## Actions Impacting the Entity
+### [[Request Ride Boundary Action]]

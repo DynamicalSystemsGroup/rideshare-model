@@ -8,6 +8,7 @@ from .Primitives import (
     EventQueueType,
     EventType,
     TimeType,
+    RideRequestLogType,
 )
 from .Rider import RiderStateType
 from .Driver import DriverIDType, DriverStateType
@@ -27,4 +28,5 @@ types = [
     TimeType,
     DriverIDType,
     DriverStateType,
+    RideRequestLogType,
 ]

@@ -23,5 +23,12 @@ global_state = {
             "symbol": None,
             "domain": None,
         },
+        {
+            "type": "Ride Request Log Type",
+            "name": "Ride Request Log",
+            "description": "The ride requests that were submitted",
+            "symbol": None,
+            "domain": None,
+        },
     ],
 }

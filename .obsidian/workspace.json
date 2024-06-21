@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "research/Notes/20240602 Event Queue Proposal.md",
+                "file": "research/MSML Scaffold/Policies/Ride Confirmation Policy.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "research/Notes/20240602 Event Queue Proposal.md",
+                "file": "research/MSML Scaffold/Policies/Ride Confirmation Policy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "research/Notes/20240602 Event Queue Proposal.md",
+                "file": "research/MSML Scaffold/Policies/Ride Confirmation Policy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "research/Notes/20240602 Event Queue Proposal.md"
+                "file": "research/MSML Scaffold/Policies/Ride Confirmation Policy.md"
               }
             }
           }
@@ -148,21 +148,23 @@
   },
   "active": "d3aa827dfa2adfc5",
   "lastOpenFiles": [
+    "src/Implementations/Python/Policies/__pycache__/Rider.cpython-39.pyc",
+    "src/Implementations/Python/Policies/Rider.py",
+    "research/MSML Scaffold/Spaces/Request Ride Response Space.md",
+    "research/MSML Scaffold/Spaces/Request Ride Space.md",
+    "research/MSML Scaffold/Policies/Ride Confirmation Policy.md",
+    "research/MSML Scaffold/Policies/Ride Pricing Policy.md",
+    "research/Notes/20240602 Event Queue Proposal.md",
     "research/MSML Scaffold/Types/Event Queue Element Type.md",
     "research/MSML Scaffold/Types/Event Queue Action Type.md",
     "research/MSML Scaffold/States/Global State-Time.md",
     "research/MSML Scaffold/Types/Timestamp Type.md",
-    "research/Notes/20240602 Event Queue Proposal.md",
     "research/MSML Scaffold/Wiring/Complete Ride Wiring.md",
     "research/MSML Scaffold/States/Global State-Event Queue.md",
     "research/Notes/20240524 Request Ride Wiring.md",
     "research/MSML Scaffold/Wiring/Request Ride Mechanisms Wiring.md",
-    "research/MSML Scaffold/Spaces/Request Ride Response Space.md",
     "research/MSML Scaffold/Types/Driver ID Type.md",
-    "research/MSML Scaffold/Policies/Ride Confirmation Policy.md",
     "research/MSML Scaffold/Wiring/Request Ride Wiring.md",
-    "research/MSML Scaffold/Policies/Ride Pricing Policy.md",
-    "research/MSML Scaffold/Spaces/Request Ride Space.md",
     "research/MSML Scaffold/Policies",
     "research/MSML Scaffold/Types/USD Type.md",
     "research/MSML Scaffold/Types/Geozone Type.md",
@@ -177,7 +179,6 @@
     "research/MSML Scaffold/Wiring",
     "research/MSML Scaffold/Entities/Rider.md",
     "research/MSML Scaffold/Entities",
-    "research/Rideshare/2 - Variables.md",
     "research/MSML Scaffold/States",
     "research/MSML Scaffold/Spaces",
     "research/MSML Scaffold/Types",
