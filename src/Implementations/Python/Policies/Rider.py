@@ -16,6 +16,8 @@ def deterministic_ride_confirmation_policy(state, params, spaces):
             spaces=[{}],
         )
         event_space = {"event": event, "time_added": domain[0]["current_time"]}
-        return [domain, event_space]
+        space3 = {"driver": domain[0]["driver_id"], "state": "En Route"}
+        space4 = {"rider": domain[0]["user_id"], "state": "En Route"}
+        return [domain[0], event_space, space3, space4]
     else:
         return None
