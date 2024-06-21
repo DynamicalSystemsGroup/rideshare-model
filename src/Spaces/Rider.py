@@ -29,5 +29,9 @@ request_ride_response_space = {
     },
 }
 
+event_space = {
+    "name": "Event Space",
+    "schema": {"event": "Event Type", "time_added": "Time Type"},
+}
 
-rider_spaces = [request_ride_space, request_ride_response_space]
+rider_spaces = [request_ride_space, request_ride_response_space, event_space]
