@@ -18,7 +18,12 @@ rider_wirings.append(
 rider_wirings.append(
     {
         "name": "Request Ride Mechanisms Wiring",
-        "components": ["Log Ride Request Mechanism", "Add Event Mechanism"],
+        "components": [
+            "Log Ride Request Mechanism",
+            "Add Event Mechanism",
+            "Update Driver State Mechanism",
+            "Update Rider State Mechanism",
+        ],
         "description": "Mechanism for ride requests",
         "constraints": [],
         "type": "Parallel",
