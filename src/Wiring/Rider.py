@@ -23,6 +23,7 @@ rider_wirings.append(
             "Add Event Mechanism",
             "Update Driver State Mechanism",
             "Update Rider State Mechanism",
+            "Pop Event Mechanism",
         ],
         "description": "Mechanism for ride requests",
         "constraints": [],

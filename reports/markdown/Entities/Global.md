@@ -16,5 +16,6 @@
 ## Mechanisms Impacting the Entity
 ### [[Add Event Mechanism]]
 ### [[Log Ride Request Mechanism]]
+### [[Pop Event Mechanism]]
 ## Actions Impacting the Entity
 ### [[Request Ride Boundary Action]]

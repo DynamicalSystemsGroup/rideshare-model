@@ -51,5 +51,6 @@ cssclasses:
 ├──**Mechanisms**
 │   ├──[[Add Event Mechanism]]
 │   ├──[[Log Ride Request Mechanism]]
+│   ├──[[Pop Event Mechanism]]
 │   ├──[[Update Driver State Mechanism]]
 │   ├──[[Update Rider State Mechanism]]
