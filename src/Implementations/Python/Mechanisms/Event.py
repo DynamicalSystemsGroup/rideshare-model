@@ -11,3 +11,7 @@ def add_event_mechanism(state, params, spaces):
 
 def log_ride_request_mechanism(state, params, spaces):
     state["Ride Request Log"].append(spaces[0])
+
+
+def pop_event_mechanism(state, params, spaces):
+    heapq.heappop(state["Event Queue"])
