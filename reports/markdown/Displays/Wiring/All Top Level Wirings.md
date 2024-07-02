@@ -4,66 +4,6 @@
 graph TB
 
 subgraph SVS["State Variables"]
-EE0[("Dummy")]
-EES0(["Variable A"])
-EES0 --- EE0
-end
-
-subgraph X4["Dummy Boundary Wiring"]
-direction TB
-X1["Dummy Boundary Action"]
-X2["Dummy Policy"]
-X3["Dummy Mechanism"]
-X3 --> EES0
-X1--"Dummy Space 1"--->X2
-X2--"Dummy Space 2"--->X3
-end
-```
-
-```mermaid
-graph TB
-
-subgraph SVS["State Variables"]
-EE0[("Dummy")]
-EES0(["Variable A"])
-EES0 --- EE0
-end
-
-subgraph X4["Dummy Boundary Wiring 2"]
-direction TB
-X1["Dummy Boundary Action 2"]
-X2["Dummy Policy"]
-X3["Dummy Mechanism"]
-X3 --> EES0
-X1--"Dummy Space 1"--->X2
-X2--"Dummy Space 2"--->X3
-end
-```
-
-```mermaid
-graph TB
-
-subgraph SVS["State Variables"]
-EE0[("Dummy")]
-EES0(["Variable A"])
-EES0 --- EE0
-end
-
-subgraph X4["Dummy Control Wiring"]
-direction TB
-X1["Dummy Control Action"]
-X2["Dummy Policy"]
-X3["Dummy Mechanism"]
-X3 --> EES0
-X1--"Dummy Space 1"--->X2
-X2-."Dummy Space 2"..->X3
-end
-```
-
-```mermaid
-graph TB
-
-subgraph SVS["State Variables"]
 EE0[("Driver")]
 EE1[("Global")]
 EE2[("Rider")]
@@ -114,25 +54,16 @@ end
 
 The wirings which are not components of other wirings.
 ## Wirings
-1. [[Dummy Boundary Wiring]]
-2. [[Dummy Boundary Wiring 2]]
-3. [[Dummy Control Wiring]]
-4. [[Request Ride Wiring]]
+1. [[Request Ride Wiring]]
 
 ## Unique Components Used
 1. [[Add Event Mechanism]]
-2. [[Dummy Boundary Action]]
-3. [[Dummy Boundary Action 2]]
-4. [[Dummy Control Action]]
-5. [[Dummy Mechanism]]
-6. [[Dummy Policy]]
-7. [[Log Ride Request Mechanism]]
-8. [[Request Ride Boundary Action]]
-9. [[Ride Confirmation Policy]]
-10. [[Ride Pricing Policy]]
-11. [[Update Driver State Mechanism]]
-12. [[Update Rider State Mechanism]]
+2. [[Log Ride Request Mechanism]]
+3. [[Request Ride Boundary Action]]
+4. [[Ride Confirmation Policy]]
+5. [[Ride Pricing Policy]]
+6. [[Update Driver State Mechanism]]
+7. [[Update Rider State Mechanism]]
 
 ## Unique Parameters Used
-1. [[dummy_parameter]]
 
