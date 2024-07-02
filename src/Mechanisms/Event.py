@@ -10,6 +10,16 @@ add_event_mechanism = {
     "updates": [("Global", "Event Queue", False)],
 }
 
+pop_event_mechanism = {
+    "name": "Pop Event Mechanism",
+    "description": "Mechanism which pops the top event from the event queue",
+    "constraints": [],
+    "logic": "Pop the top event in the event queue",
+    "domain": [],
+    "parameters_used": [],
+    "updates": [("Global", "Event Queue", False)],
+}
+
 log_ride_request_mechanism = {
     "name": "Log Ride Request Mechanism",
     "description": "Mechanism which logs rides requested",
@@ -21,4 +31,8 @@ log_ride_request_mechanism = {
 }
 
 
-event_mechanisms = [add_event_mechanism, log_ride_request_mechanism]
+event_mechanisms = [
+    add_event_mechanism,
+    log_ride_request_mechanism,
+    pop_event_mechanism,
+]

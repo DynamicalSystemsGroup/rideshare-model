@@ -17,7 +17,7 @@ EES3(["State"])
 EES3 --- EE2
 end
 
-subgraph X7["Request Ride Mechanisms Wiring"]
+subgraph X8["Request Ride Mechanisms Wiring"]
 direction TB
 X1["Log Ride Request Mechanism"]
 X1 --> EES2
@@ -27,14 +27,17 @@ X3["Update Driver State Mechanism"]
 X3 --> EES0
 X4["Update Rider State Mechanism"]
 X4 --> EES3
-X5[Domain]
+X5["Pop Event Mechanism"]
+X5 --> EES1
+X6[Domain]
 
 direction LR
 direction TB
-X5 --"Request Ride Response Space"--> X1
-X5 --"Event Space"--> X2
-X5 --"Driver State Space"--> X3
-X5 --"Rider State Space"--> X4
+X6 --"Request Ride Response Space"--> X1
+X6 --"Event Space"--> X2
+X6 --"Driver State Space"--> X3
+X6 --"Rider State Space"--> X4
+X6 --> X5
 end
 ```
 
@@ -47,12 +50,14 @@ Mechanism for ride requests
 2. [[Add Event Mechanism]]
 3. [[Update Driver State Mechanism]]
 4. [[Update Rider State Mechanism]]
+5. [[Pop Event Mechanism]]
 
 ## All Blocks
 1. [[Add Event Mechanism]]
 2. [[Log Ride Request Mechanism]]
-3. [[Update Driver State Mechanism]]
-4. [[Update Rider State Mechanism]]
+3. [[Pop Event Mechanism]]
+4. [[Update Driver State Mechanism]]
+5. [[Update Rider State Mechanism]]
 
 ## Constraints
 
