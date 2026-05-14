@@ -8,7 +8,7 @@
  [SystemsEng Fundamentals ]( https://ocw.mit.edu/courses/16-842-fundamentals-of-systems-engineering-fall-2015/pages/syllabus/)
 [UPenn](https://www.nets.upenn.edu/academics)
 # Articles
-[Art of Mathematical Modeling](https://hackmd.io/@blockscience/rketbTyGA ) 
+[Art of Mathematical Modeling](https://hackmd.io/@DynamicalSystemsGroup/rketbTyGA ) 
 
 # Videos
 

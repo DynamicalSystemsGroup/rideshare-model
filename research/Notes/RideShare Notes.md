@@ -22,11 +22,11 @@ https://github.com/1Hive/conviction-voting-cadcad/blob/master/model_structure.ip
 
 reach out in firstbatch
 
-[The Art of Mathematical Modeling](https://hackmd.io/@blockscience/rketbTyGA)
+[The Art of Mathematical Modeling](https://hackmd.io/@DynamicalSystemsGroup/rketbTyGA)
 
-[PSUU in Practice](https://hackmd.io/@blockscience/Hy3p_ueJC)
+[PSUU in Practice](https://hackmd.io/@DynamicalSystemsGroup/Hy3p_ueJC)
 
-[Engineering note](https://hackmd.io/@blockscience/SkRVn5EAT)
+[Engineering note](https://hackmd.io/@DynamicalSystemsGroup/SkRVn5EAT)
 
 https://ocw.mit.edu/courses/16-842-fundamentals-of-systems-engineering-fall-2015/resources/mit16_842f15_ses1se_ovr_vw/
 
